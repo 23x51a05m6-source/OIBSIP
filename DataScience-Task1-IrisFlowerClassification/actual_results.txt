@@ -1,0 +1,61 @@
+OASIS Infobyte SIP - Data Science Task 1
+Iris Flower Classification
+
+Dataset shape: (150, 5)
+Training samples: 120
+Testing samples: 30
+
+Null values:
+sepal length (cm)    0
+sepal width (cm)     0
+petal length (cm)    0
+petal width (cm)     0
+species              0
+
+Model accuracies:
+- Logistic Regression: 0.9667 (96.67%)
+- K-Nearest Neighbours: 1.0000 (100.00%)
+
+Best-performing model: K-Nearest Neighbours
+
+Classification reports
+======================
+
+K-Nearest Neighbours
+              precision    recall  f1-score   support
+
+      setosa     1.0000    1.0000    1.0000        10
+  versicolor     1.0000    1.0000    1.0000        10
+   virginica     1.0000    1.0000    1.0000        10
+
+    accuracy                         1.0000        30
+   macro avg     1.0000    1.0000    1.0000        30
+weighted avg     1.0000    1.0000    1.0000        30
+
+
+Logistic Regression
+              precision    recall  f1-score   support
+
+      setosa     1.0000    1.0000    1.0000        10
+  versicolor     1.0000    0.9000    0.9474        10
+   virginica     0.9091    1.0000    0.9524        10
+
+    accuracy                         0.9667        30
+   macro avg     0.9697    0.9667    0.9666        30
+weighted avg     0.9697    0.9667    0.9666        30
+
+
+K-Nearest Neighbours
+              precision    recall  f1-score   support
+
+      setosa     1.0000    1.0000    1.0000        10
+  versicolor     1.0000    1.0000    1.0000        10
+   virginica     1.0000    1.0000    1.0000        10
+
+    accuracy                         1.0000        30
+   macro avg     1.0000    1.0000    1.0000        30
+weighted avg     1.0000    1.0000    1.0000        30
+
+
+Feature observation:
+Petal length and petal width show the clearest separation among the three species in the pairplot/boxplots, while sepal measurements show more overlap.
